@@ -1,0 +1,136 @@
+/* Fuente del título */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Press+Start+2P&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('fondo.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Estilo del form */
+#f1 {
+    width: 30em;
+    padding: 20px;
+    /* fondo con gradiente de gris */
+    background: linear-gradient(45deg, #f0f0f0, #d0d0d0);
+    border: 1px solid #070bf1;
+    border-radius: 5px;    
+
+}
+
+#titulo {
+    color: #32f307;
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 2px #000000;    
+    /*poner borde a la fuente*/
+    -webkit-text-stroke: 0.5px #000000;
+}
+
+#subtitulo {
+    color: #c40bfc; 
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 2px #000000;               
+}
+
+input[type="submit"].botones {
+    background: linear-gradient(145deg, #1afa13, #02a833);
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+input[type="submit"].botones:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(145deg, #5609a8, #f413bf);
+}
+
+input[type="submit"].botones:active {
+    transform: translateY(2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"].eliminar {
+    background: linear-gradient(145deg, #5609a8, #f413bf);
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;    
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+input[type="submit"].eliminar:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(145deg, #921d06, #ff0101);
+}
+
+input[type="submit"].alquilar {
+    background: linear-gradient(145deg, #1afa13, #02a833);
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;    
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+input[type="submit"].alquilar:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(145deg, #06fdf9, #0e35fb);
+}
+.contenedor {
+    width: 70%;
+    padding: 20px;   
+    margin:  15px; 
+    align-items: center;       
+    /* fondo con gradiente de gris */
+    background: linear-gradient(45deg, #f0f0f0, #d0d0d0);
+    border: 1px solid #070bf1;
+    border-radius: 5px;    
+}
+
+.contenedor2 {
+    width: 40%;
+    height: 40%;
+    padding: 20px;   
+    margin:  15px; 
+    align-items: center;       
+    /* fondo con gradiente de gris */
+    background: linear-gradient(45deg, #f0f0f0, #d0d0d0);
+    border: 1px solid #070bf1;
+    border-radius: 5px;    
+}
+
+.contenedorExterno {
+    display: flex;       
+    flex-direction: row; /* Para alinear los divs horizontalmente */
+    gap: 40px; /* Espacio entre los divs */
+    
+}
